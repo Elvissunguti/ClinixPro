@@ -1,0 +1,19 @@
+node_modules/
+dist/
+build/
+.firebase/
+
+# secrets and local config
+.env
+.env.*
+!.env.example
+.secret.local
+*.local
+serviceAccountKey*.json
+
+# logs and OS files
+*.log
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+.DS_Store
